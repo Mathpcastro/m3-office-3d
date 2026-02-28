@@ -1,56 +1,98 @@
 {
-  "status": "maestro",
-  "task": "Revisão final e coordenação",
-  "progress": 85,
-  "current_agent": "maestro",
+  "status": "completed",
+  "task": "Criar landing page simples",
+  "progress": 100,
+  "current_agent": null,
   "attempts": {
-    "organizer": 1,
-    "coder": 2,
-    "verifier": 1,
-    "maestro": 1
+    "maestro": 0,
+    "organizer": 0,
+    "coder": 0,
+    "verifier": 0
   },
   "logs": [
     {
-      "time": 1709155200000,
-      "agent": "organizer",
-      "message": "Iniciando análise dos requisitos",
+      "timestamp": 1709155200000,
+      "agent": "maestro",
+      "message": "🎬 Sistema M3 Office 3D iniciado",
       "level": "info"
     },
     {
-      "time": 1709155260000,
-      "agent": "organizer",
-      "message": "Estrutura de arquivos criada",
-      "level": "success"
-    },
-    {
-      "time": 1709155320000,
-      "agent": "coder",
-      "message": "Implementando componentes 3D",
+      "timestamp": 1709155210000,
+      "agent": "maestro",
+      "message": "⏳ Aguardando tarefa...",
       "level": "info"
     },
     {
-      "time": 1709155380000,
-      "agent": "coder",
-      "message": "Build inicial concluído",
-      "level": "success"
+      "timestamp": 1772319757447,
+      "agent": "organizer",
+      "message": "🎬 Maestro iniciado: Landing page",
+      "level": "info"
     },
     {
-      "time": 1709155440000,
+      "timestamp": 1772319759476,
+      "agent": "organizer",
+      "message": "📋 Analisando requisitos...",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319761505,
+      "agent": "organizer",
+      "message": "✅ Plano criado: 3 seções",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319762535,
+      "agent": "coder",
+      "message": "💻 Coder iniciando implementação...",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319764570,
+      "agent": "coder",
+      "message": "⏳ Criando componentes Hero...",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319766605,
+      "agent": "coder",
+      "message": "⏳ Implementando Features...",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319768636,
+      "agent": "coder",
+      "message": "⏳ Ajustando responsividade...",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319770666,
+      "agent": "coder",
+      "message": "✅ Código implementado",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319771702,
       "agent": "verifier",
-      "message": "Testando visualização",
+      "message": "✅ Verifier iniciando revisão...",
       "level": "info"
     },
     {
-      "time": 1709155500000,
-      "agent": "maestro",
-      "message": "Iniciando supervisão do projeto",
+      "timestamp": 1772319773741,
+      "agent": "verifier",
+      "message": "🔍 Testando em diferentes telas...",
       "level": "info"
     },
     {
-      "time": 1709155560000,
+      "timestamp": 1772319775774,
+      "agent": "verifier",
+      "message": "🚀 Verifier aprovou!",
+      "level": "info"
+    },
+    {
+      "timestamp": 1772319776808,
       "agent": "maestro",
-      "message": "Adicionando 4ª estação - Maestro",
-      "level": "success"
+      "message": "✨ Landing page concluída!",
+      "level": "info"
     }
   ]
 }
