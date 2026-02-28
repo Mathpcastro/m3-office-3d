@@ -9,6 +9,7 @@ import { Desk } from './Desk';
 import { Chair } from './Chair';
 import { Computer } from './Computer';
 import { Avatar } from './Avatar';
+import { SpriteAvatar } from './SpriteAvatar';
 import { StatusLight } from './StatusLight';
 
 interface WorkstationProps {
@@ -17,11 +18,12 @@ interface WorkstationProps {
   status: AgentStatus;
   progress: number;
   task: string;
+  useSprite?: boolean; // Nova prop para usar sprites 2D
 }
 
 /**
  * Complete Workstation Component
- * Combines desk, chair, computer, and avatar
+ * Combines desk, chair, computer, and agent
  */
 export function Workstation({
   config,
@@ -29,6 +31,7 @@ export function Workstation({
   status,
   progress,
   task,
+  useSprite = true, // Default: usar sprites
 }: WorkstationProps) {
   const { agent, position, rotation, deskColor, chairColor } = config;
 
@@ -53,13 +56,22 @@ export function Workstation({
         position={[0, 0.8, -0.3]}
       />
 
-      {/* Avatar sitting on chair */}
-      <Avatar
-        agent={agent}
-        status={status}
-        isActive={isActive}
-        position={[0, 0.5, 1.2]}
-      />
+      {/* Avatar - sprite 2D ou 3D baseado na prop */}
+      {useSprite ? (
+        <SpriteAvatar
+          agent={agent}
+          status={status}
+          position={[0, 1.0, 1.2]}
+          scale={0.8}
+        />
+      ) : (
+        <Avatar
+          agent={agent}
+          status={status}
+          isActive={isActive}
+          position={[0, 0.5, 1.2]}
+        />
+      )}
 
       {/* Status indicator light */}
       <StatusLight
