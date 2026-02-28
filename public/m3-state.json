@@ -1,0 +1,56 @@
+{
+  "status": "maestro",
+  "task": "Revisão final e coordenação",
+  "progress": 85,
+  "current_agent": "maestro",
+  "attempts": {
+    "organizer": 1,
+    "coder": 2,
+    "verifier": 1,
+    "maestro": 1
+  },
+  "logs": [
+    {
+      "time": 1709155200000,
+      "agent": "organizer",
+      "message": "Iniciando análise dos requisitos",
+      "level": "info"
+    },
+    {
+      "time": 1709155260000,
+      "agent": "organizer",
+      "message": "Estrutura de arquivos criada",
+      "level": "success"
+    },
+    {
+      "time": 1709155320000,
+      "agent": "coder",
+      "message": "Implementando componentes 3D",
+      "level": "info"
+    },
+    {
+      "time": 1709155380000,
+      "agent": "coder",
+      "message": "Build inicial concluído",
+      "level": "success"
+    },
+    {
+      "time": 1709155440000,
+      "agent": "verifier",
+      "message": "Testando visualização",
+      "level": "info"
+    },
+    {
+      "time": 1709155500000,
+      "agent": "maestro",
+      "message": "Iniciando supervisão do projeto",
+      "level": "info"
+    },
+    {
+      "time": 1709155560000,
+      "agent": "maestro",
+      "message": "Adicionando 4ª estação - Maestro",
+      "level": "success"
+    }
+  ]
+}

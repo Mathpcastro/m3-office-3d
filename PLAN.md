@@ -20,7 +20,11 @@
 - [ ] Criar componente Chair (cadeira)
 - [ ] Criar componente Computer (PC + monitor)
 - [ ] Criar componente Agent (avatar placeholder)
-- [ ] Posicionar 3 estações: Organizer, Coder, Verifier
+- [ ] Posicionar **4 estações**: Maestro, Organizer, Coder, Verifier
+- [ ] **Maestro**: Console de comando central (visão geral)
+- [ ] **Organizer**: Mesa com blueprints/diagramas
+- [ ] **Coder**: Mesa com múltiplos monitores
+- [ ] **Verifier**: Mesa com checklists e testes
 - [ ] Aplicar materiais e cores diferentes para cada agente
 
 ## FASE 4: Telas dos PCs

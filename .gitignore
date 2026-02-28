@@ -1,0 +1,9 @@
+# M3 Office 3D
+
+.next/
+node_modules/
+dist/
+*.log
+.env
+.env.local
+.DS_Store
